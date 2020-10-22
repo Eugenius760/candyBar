@@ -1,0 +1,92 @@
+.nav {
+  background-color: #552583;
+  margin-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #552583;
+}
+
+.candy {
+  font-family: "Acme", sans-serif;
+  color: #fdb927;
+}
+
+.descrip {
+  justify-content: center;
+  color: #552583;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.buttons {
+  justify-content: center;
+}
+
+.main {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.candyPic {
+  height: 300px;
+  width: 400px;
+}
+
+.pic {
+  justify-content: center;
+  margin-bottom: 10px;
+  border: solid 3px;
+}
+
+.survey {
+  justify-content: center;
+}
+
+.center {
+  justify-items: center;
+}
+
+.sbtn {
+  background-color: #552583;
+  color: #fdb927;
+  border: #fdb927 solid 2px;
+  margin: 5px;
+}
+
+.sbtn:hover {
+  background-color: white;
+  color: #552583;
+}
+
+.nbtn {
+  background-color: white;
+  color: #fdb927;
+  border: #fdb927 solid 2px;
+}
+
+.nbtn:hover {
+  color: #552583;
+}
+
+@media screen and (max-width: 991px) {
+  /* The body's bg color will be #333 */
+  .candyPic {
+    height: 250px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* The body's bg color will be #333 */
+  .candyPic {
+    height: 150px;
+    width: 200px;
+  }
+}
